@@ -1,0 +1,358 @@
+    1  /Volumes/AdobePhotoshop19.1.6-mul/Install.app/Contents/MacOS/Install ; exit;
+    2  /Volumes/AdobePhotoshop19.1.6-mul/Install.app/Contents/MacOS/Install ; exit;
+    3  /Volumes/AdobePhotoshop19.1.6-mul/Install.app/Contents/MacOS/Install ; exit;
+    4  /Volumes/AdobePhotoshop19.1.6-mul/Install.app/Contents/MacOS/Install ; exit;
+    5  /Volumes/Adobe\ Illustrator\ 2020\ v24.3/Extra/Install.app/Contents/MacOS/Install ; exit;
+    6  /Volumes/Adobe\ Illustrator\ 2020\ v24.3/Extra/Install.app/Contents/MacOS/Install ; exit;
+    7  help
+    8  help cd
+    9  man cd
+   10  man ls
+   11  ls
+   12  cd Desktop
+   13  ls
+   14  ~
+   15  cd~
+   16  cd ~
+   17  ls
+   18  cd/
+   19  cd
+   20  pwd
+   21  cd Desktop
+   22  cd lesson32
+   23  cd ~
+   24  cd Desktop
+   25  cd lessn32
+   26  cd Lesson32
+   27  mkdir Test1
+   28  touch file1.txt
+   29  vim file1.txt
+   30  nona file1.txt
+   31  nano file1.txt
+   32  rm file.txt
+   33  cd Desktop
+   34  cd Lesson32
+   35  rm file1.txt
+   36  cd~
+   37  cd ~
+   38  ping google.com
+   39  date
+   40  ipconfig
+   41  ifconfig
+   42  git config --global user.name "Vadim Kahlianuk"
+   43  git config --global user.email "vadim12356281@gmail.com"
+   44  cd Desktop/homework32
+   45  git config --global user.name "Vadim Kahlianuk"
+   46  git config --global user.email "vadim12356281@gmail.com"\n
+   47  git clone https://github.com/NaRk0zz/homework32.git
+   48  clear
+   49  cd MW_10
+   50  clear
+   51  clear
+   52  cd Desktop/HW_10
+   53  git config --global user.name "Vadim Kahlianuk"
+   54  git config --global user.email "vadim12356281@gmail.com"
+   55  git clone https://github.com/NaRk0zz/HW_10.git
+   56  ls HW_10
+   57  clear
+   58  cd HW_10/
+   59  touch text_ignore.txt
+   60  echo "text_ignore.txt" >> .gitignore
+   61  nano .gitignore\n
+   62  git status
+   63  ls
+   64  gid add text_ignore.txt
+   65  git add text_ignore.txt
+   66  git status
+   67  git commit -m "texy_ignore.txt file   "
+   68  git commit -m "texy_ignore.txt file added"
+   69  git status
+   70  clear
+   71  nano .gitignore
+   72  cd Desktop
+   73  cd HW_10_1
+   74  cd HW_10
+   75  nano .gitignore
+   76  git status
+   77  vim .gitignore
+   78  cd Desktop
+   79  cd HW_10_1
+   80  cd HW_10/
+   81  git add text_ignore.txt
+   82  git status
+   83  nano .gitignore
+   84  git commit -m "text_ignore.txt file added"
+   85  cd Desktop
+   86  cd HW_10_1
+   87  git config --global user.name"Vadim Kahlianuk"
+   88  git config --global user.name"Vadim Kahlianuk"
+   89  git config --global user.name "Vadim Kahlianuk"
+   90  git config --global user.email "vadim12356281@gmail.com"
+   91  git clone https://github.com/NaRk0zz/HW_10.git
+   92  touch text_ignore.txt
+   93  delete text_ignore.txt
+   94  cd HW_10
+   95  touch tetx_ignore.txt
+   96  touch text_ignore.txt
+   97  vim .gitignore
+   98  cd Desktop
+   99  cd HW_10_1
+  100  cd HW_10
+  101  git status
+  102  echo "text_ignore.txt" >> .gitignore
+  103  git status
+  104  git commit -m "Added text_ignore.txt to .gitignore and created the file"
+  105  touch main_test.txt
+  106  gid add
+  107  git add
+  108  git add .
+  109  git commit -m "Created an empty main_test.txt file"
+  110  git checkout -b develop
+  111  touch develop_test.txt\n
+  112  git add .
+  113  git commit -m "Created an empty develop_test.txt file"
+  114  echo "just a small change" >> develop_test.txt\n
+  115  git status\n
+  116  git add .
+  117  git commit -m "Added a small change to develop_test.txt"\n
+  118  git log
+  119  git checkout main
+  120  git merge develop\n
+  121  git log\n
+  122  history 0 > command_list.csv\n
+  123  git add command_list.csv\n
+  124  git commit -m "Added command_list.csv with git command history"\n
+  125  git push\n
+  126  brew install git
+  127  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  128  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  129  brew install git-gui
+  130  clear
+  131  cd Desktop
+  132  cd HW_10_1
+  133  git config --global user.name "Vadim Kahlianuk"
+  134  git config --global user.email "vadim12356712@gmail.com"
+  135  git clone https://github.com/NaRk0zz/HW_10.git
+  136  cd HW_10
+  137  touch text_ignore.txt\n
+  138  echo "text_ignore.txt" >> .gitignore\n
+  139  git status\n
+  140  git add .\n
+  141  git commit -m "Added text_ignore.txt to .gitignore"\n
+  142  touch main_test.txt\n
+  143  git add .\n
+  144  git commit -m "Created an empty main_test.txt file"\n
+  145  git checkout -b develop\n
+  146  touch develop_test.txt\n
+  147  git add .\n
+  148  git commit -m "Created an empty develop_test.txt file"\n
+  149  echo "just a small change" >> develop_test.txt\n
+  150  git status\n
+  151  git add .\n
+  152  git commit -m "Added a small change to develop_test.txt"\n
+  153  git checkout main\n
+  154  git merge develop\n
+  155  git log\n
+  156  cd Desktop
+  157  cd HW_10_1
+  158  cd HW_10
+  159  git clone https://github.com/NaRk0zz/HW_10.git\n
+  160  ~
+  161  clear
+  162  cd Desktop
+  163  cd HW_10_1
+  164  git clone https://github.com/NaRk0zz/HW_10.git
+  165  cd HW_10
+  166  touch text_ignore.txt\n
+  167  echo "text_ignore.txt" >> .gitignore\n
+  168  git status\n
+  169  git add .\n
+  170  git commit -m "Add .gitignore to ignore text_ignore.txt"\n
+  171  touch main_test.txt\n
+  172  git add .\n
+  173  git commit -m "Add main_test.txt"\n
+  174  git checkout -b develop\n
+  175  touch develop_test.txt\n
+  176  git add .\n
+  177  git commit -m "Add develop_test.txt"\n
+  178  echo "just a small change" >> develop_test.txt\n
+  179  git status\n
+  180  git add .\n
+  181  git commit -m "Update develop_test.txt"\n
+  182  git checkout main\n
+  183  git merge develop\n
+  184  git log\n
+  185  cd Desktop
+  186  cd HW_10_1
+  187  git clone https://github.com/NaRk0zz/HW_10.git\n
+  188  cd HW_10\n
+  189  touch text_ignore.txt\n
+  190  echo "text_ignore.txt" >> .gitignore\n
+  191  git status\n
+  192  git add text_ignore.txt\n
+  193  git commit -m "Add .gitignore to ignore text_ignore.txt"\n
+  194  touch main_test.txt\n
+  195  git add main_test.txt\n
+  196  git commit -m "Add main_test.txt"\n
+  197  git checkout -b develop\n
+  198  touch develop_test.txt\n
+  199  git add develop_test.txt\n
+  200  git commit -m "Add develop_test.txt"\n
+  201  echo "just a small change" >> develop_test.txt\n
+  202  git status\n
+  203  git add develop_test.txt\n
+  204  git commit -m "Update develop_test.txt"\n
+  205  git checkout main\n
+  206  git checkout main\n
+  207  git merge develop\n
+  208  git log
+  209  history 0 > command_list.csv\n
+  210  git add command_list.csv\n
+  211  git commit -m "Add command_list.csv"\n
+  212  git push\n
+  213  git push
+  214  git push
+  215  git push
+  216  git push --help
+  217  clear
+  218  cd Desktop
+  219  cd HW_10_1
+  220  git config --global "Vadim Kahlianuk"
+  221  git config --global "Vadim Kahlianuk"
+  222  cd Desktop
+  223  cd HW_10_1
+  224  git config --global "Kahlianuk Vadim"
+  225  git config --global "Vadim Kahlianuk"
+  226  clear
+  227  cd Desktop
+  228  cd HW_10_1
+  229  git config user.name "Vadim Kahlianuk"
+  230  cd Desktop
+  231  cd HW_10_1
+  232  git clone https://github.com/NaRk0zz/HW_10.git 
+  233  git config user.name "Vadim Kahlianuk"
+  234  cd HW_10/
+  235  git config user.name "Vadim Kahlianuk"
+  236  git config user.name "vadim12356712@gmail.com"
+  237  touch text_ignore.txt\n
+  238  echo "text_ignore.txt" >> .gitignore\n
+  239  git status\n
+  240  git add text_ignore.txt\n
+  241  git commit -m "Added text_ignore.txt to .gitignore"\n
+  242  touch main_test.txt\n
+  243  git add main_test.txt\n
+  244  git commit -m "Added main_test.txt"\n
+  245  git checkout -b develop\n
+  246  touch develop_test.txt\n
+  247  git add develop_test.txt\n
+  248  git commit -m "Added develop_test.txt"\n
+  249  echo "just a small change" >> develop_test.txt\n
+  250  git status\n
+  251  git add develop_test.txt\n
+  252  git commit -m "Updated develop_test.txt"\n
+  253  git checkout main\n
+  254  git merge develop\n
+  255  git log\n
+  256  history 0 > command_list.csv\n
+  257  git add command_list.csv\n
+  258  git commit -m "Added command_list.csv"\n
+  259  git push\n
+  260  git push\n
+  261  git push
+  262  cd Desktop
+  263  cd HW_10_1
+  264  git config user.name "Vadim Kahlianuk"
+  265  clear
+  266  git clone https://github.com/NaRk0zz/HW_10.git
+  267  git config user.name "Kahlianuk Vadim"
+  268  cd HW_10
+  269  git config user.name "Kahlianuk Vadim"
+  270  git config user.email "vadim12356712@gmail.com"
+  271  touch text_ignore.txt\n
+  272  echo "text_ignore.txt" >> .gitignore\n
+  273  git status\n
+  274  git add text_ignore.txt\n
+  275  git commit -m "Added text_ignore.txt to .gitignore"\n
+  276  touch main_test.txt\n
+  277  git add main_test.txt\n
+  278  git commit -m "Added main_test.txt"\n
+  279  git checkout -b develop\n
+  280  touch develop_test.txt\n
+  281  git add develop_test.txt\n
+  282  git commit -m "Added develop_test.txt"\n
+  283  echo "just a small change" >> develop_test.txt\n
+  284  git status\n
+  285  git add develop_test.txt\n
+  286  git commit -m "Updated develop_test.txt"\n
+  287  git checkout main\n
+  288  git merge develop\n
+  289  git log\n
+  290  history 0 > command_list.csv\n
+  291  git add cammand_list.csv\n
+  292  git add command_list.csv
+  293  git commit -m "Added command_list.csv"\n
+  294  git push\n
+  295  git config --global user.name "Vadim Kahlianuk"
+  296  git config --global user.email "vadim12356712@gmail.com"
+  297  git push
+  298  cd Desktop
+  299  cd HW_10_1
+  300  git config --global user.name "Vadim Kahlianuk"
+  301  git config --global user.email "vadim12356281@gmail.com"
+  302  git clone https://github.com/vadim12356281/HW_10.git\n
+  303  cd HW_10\n
+  304   touch text_ignore.txt\n
+  305  echo "text_ignore.txt" >> .gitignore\n
+  306  git status\n
+  307  git add text_ignore.txt\n
+  308  git commit -m "Added text_ignore.txt to .gitignore"\n
+  309  touch main_test.txt\n
+  310  git add main_test.txt\n
+  311  git commit -m "Added main_test.txt"\n
+  312  git checkout -b develop\n
+  313  touch develop_test.txt\n
+  314  git add develop_test.txt
+  315  git commit -m "Added develop_test.txt"\n
+  316  echo "just a small change" >> develop_test.txt\n
+  317  git status\n
+  318  git add develop_test.txt
+  319  git commit -m "Updated develop_test.txt"\n
+  320  git checkout main\n
+  321  git merge develop\n
+  322  git log\n
+  323  history 0 > command_list.csv\n
+  324  git add command_list.csv
+  325  git commit -m "Added command_list.csv"\n
+  326  git push
+  327  git push
+  328  git push
+  329  git push
+  330  git push
+  331  git push
+  332  git push
+  333  clear
+  334  git config --global user.name "Vadim Kahlianuk"
+  335  git config --global user.email "vadim12356281@gmail.com"
+  336  cd Desktop
+  337  cd HW_10_1
+  338  git clone https://github.com/vadim12356281/HW_10.git
+  339  cd HW_10
+  340  touch text_ignore.txt\n
+  341  echo "text_ignore.txt" >> .gitignore\n
+  342  git status\n
+  343  git add .gitignore\n
+  344  git commit -m "Added text_ignore.txt to .gitignore"\n
+  345  touch main_test.txt\n
+  346  git add main_test.txt\n
+  347  git commit -m "Added main_test.txt"\n
+  348  git checkout -b develop\n
+  349  touch develop_test.txt\n
+  350  git add develop_test.txt
+  351  git commit -m "Added develop_test.txt"\n
+  352  echo "just a small change" >> develop_test.txt\n
+  353  git status
+  354  git add develop_test.txt
+  355  git commit -m "Updated develop_test.txt"\n
+  356  git checkout main\n
+  357  git merge develop\n
+  358  git log\n
